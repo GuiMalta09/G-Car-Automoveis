@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 70vh;
+    background-image: url(img/FUSCA.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.p1{
+    color: white;
+    font-size: 128px;
+    font-family: "Bebas Neue", sans-serif;
+    padding-top: 50px;
+    padding-left: 30px;
+    -webkit-text-stroke-width: 1.5px; 
+    -webkit-text-stroke-color: white; 
+}
+nav {
+    width: 90%;
+    height: 15vh;
+    background-color: #670000;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+nav ul{
+    display: flex;
+    gap: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding-right: 80px;
+    
+}
+nav ul li{
+    list-style: none;
+    font-size: 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cent{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+main{
+    width: 100%;
+    height: 120vh;
+    background-color:#676767;
+   
+}
+footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #670000;
+    color: white;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.p2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    
+    padding-top: 10px;
+}
+.p3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    
+    padding-top: 10px;
+}
+.txt{
+    width: 50%;
+    height: 120vh;
+    padding: 30px;
+    line-height: 23px;
+    color: white;
+    
+}
+.imagem{
+    width: 50%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.align{
+    display: flex;
+}
+.p4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    
+    padding-top: 40px;
+}

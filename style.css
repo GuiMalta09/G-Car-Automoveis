@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fundo{
+    width: 100%;
+    height: 120vh;
+    background-image: url(img/Ford-Landau.jpg);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.p1{
+    color: white;
+    font-size: 128px;
+    font-family: "Bebas Neue", sans-serif;
+    padding-top: 50px;
+    padding-left: 30px;
+    -webkit-text-stroke-width: 1.5px; 
+    -webkit-text-stroke-color: white; 
+}
+.p2{
+    color: #670000;
+    font-size: 128px;
+    font-family: "Bebas Neue", sans-serif;
+    padding-left: 30px;
+    -webkit-text-stroke-width: 1.5px; 
+    -webkit-text-stroke-color: white; 
+}
+nav {
+    width: 90%;
+    height: 15vh;
+    background-color: #670000;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+nav ul{
+    display: flex;
+    gap: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding-right: 80px;
+    
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cent{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #670000;
+    color: white;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
